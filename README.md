@@ -32,12 +32,6 @@ Data Wrangling Steps
         Test: test your dataset, visually or with code, to make sure your cleaning operations worked.
     Always make copies of the original pieces of data before cleaning!
 
-Reassess and Iterate
+4) Reassess and Iterate
 
     After cleaning, always reassess and iterate on any of the data wrangling steps if necessary.
-
-Store (Optional)
-
-    Store data, in a file or database for example, if you need to use it in the future.
-
-
