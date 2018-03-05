@@ -11,25 +11,39 @@ Data Wrangling Steps
 2) Assess
 
     a) Assess data for:
+    
         (i) Quality: issues with content. Low quality data is also known as dirty data.
+        
         (ii)Tidiness: issues with structure that prevent easy analysis. Untidy data is also known as messy data. Tidy data requirements:
+        
             Each variable forms a column.
+            
             Each observation forms a row.
+            
             Each type of observational unit forms a table.
 
     b) Types of assessment:
+    
         (i) Visual assessment: scrolling through the data in your preferred software application (Google Sheets, Excel, a text editor, etc.).
+        
         (ii)Programmatic assessment: using code to view specific portions and summaries of the data (pandas' head, tail, and info methods, for example).
 
 3) Clean
 
     a) Types of cleaning:
+    
        (i) Manual (not recommended unless the issues are single occurrences)
+       
        (ii)Programmatic
+       
     The programmatic data cleaning process:
+    
         Define: convert our assessments into defined cleaning tasks. These definitions also serve as an instruction list so others (or yourself in the future) can look at your work and reproduce it.
+        
         Code: convert those definitions to code and run that code.
+        
         Test: test your dataset, visually or with code, to make sure your cleaning operations worked.
+        
     Always make copies of the original pieces of data before cleaning!
 
 4) Reassess and Iterate
