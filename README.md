@@ -21,7 +21,7 @@ Data Wrangling Steps
         (i) Visual assessment: scrolling through the data in your preferred software application (Google Sheets, Excel, a text editor, etc.).
         (ii)Programmatic assessment: using code to view specific portions and summaries of the data (pandas' head, tail, and info methods, for example).
 
-3) lean
+3) Clean
 
     a) Types of cleaning:
        (i) Manual (not recommended unless the issues are single occurrences)
